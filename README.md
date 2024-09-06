@@ -1,14 +1,20 @@
-# MM24_ReCorD
+<div align="center">
+<h1>ReCorD (ACM MM 2024)</h1>
+<h3>ReCorD: Reasoning and Correcting Diffusion for HOI Generation</h3>
 
-### Reasoning and Correcting Diffusion (ReCorD)
+Jian-Yu Jiang-Lin<sup>1,2*</sup>&nbsp; Kang-Yang Huang<sup>2*</sup>&nbsp; Ling Lo<sup>1</sup>&nbsp; Yi-Ning Huang<sup>1</sup>&nbsp; 
+<br>Terence Lin<sup>1</sup>&nbsp; Jhih-Ciang Wu<sup>2</sup>&nbsp; Hong-Han Shuai<sup>1</sup>&nbsp; Wen-Huang Cheng<sup>2</sup>
+
+<sup>1</sup> National Yang Ming Chiao Tung University&nbsp; <sup>2</sup> National Taiwan University
+
+[![arXiv](https://img.shields.io/badge/arXiv-2407.17911-COLOR.svg)](https://arxiv.org/abs/2407.17911)&nbsp; [![Project](https://img.shields.io/badge/Project-ReCorD-blue)](https://alberthkyhky.github.io/ReCorD/)
+
+</div>
+
+
+<img src="docs/MM_2024-Teaser.png" width="1000">
 
 **Overview**: ReCorD revolutionizes image generation by integrating LDM with VLMs. This training-free approach enhances the creation of multimedia content, particularly in accurately depicting HOIs.
-
-**Key Features**:
-- **Coarse Candidates Generation Module**: Manipulates the cross-attention and self-attention maps to generate candidate images associated with the action subject to the prompt.
-- **Interaction-Aware Reasoning Module**: Improves the interpretation of interactions between humans and objects, enhancing the realism of the poses and object placements.
-- **Interaction Correcting Module**: Refines the output images to ensure precise depictions of HOIs, focusing on maintaining accurate pose and object positioning. 
-
 
 ---
 ### Installation
@@ -56,8 +62,6 @@ config = RunConfig(
 python ./GPT4V/gpt4v.py
 ```
 
-
-
 ### interaction_aware_reasoning(generated_image_path, api_key, input_annotations=None)
 
 * **generated_image_path:** The path of the generated image.
@@ -73,3 +77,13 @@ input_annotations: should be a dictionay with the following format:
     "object_bboxes": "[60, 121, 465, 421]"
 }
 ```
+
+### Acknowledgment 
+
+This project builds upon and is deeply influenced by the following repositories:
+* [diffusers](https://github.com/huggingface/diffusers)
+* [google](https://github.com/google/prompt-to-prompt)
+* [boxdiff](https://github.com/showlab/BoxDiff)
+* [yuval-alaluf](https://github.com/yuval-alaluf)
+
+We are grateful to these outstanding open-source projects for providing the groundwork that made this project possible.
