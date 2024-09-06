@@ -4,12 +4,14 @@
 
 Jian-Yu Jiang-Lin<sup>1,2*</sup>&nbsp; Kang-Yang Huang<sup>2*</sup>&nbsp; Ling Lo<sup>1</sup>&nbsp; Yi-Ning Huang<sup>1</sup>&nbsp; 
 <br>Terence Lin<sup>1</sup>&nbsp; Jhih-Ciang Wu<sup>2</sup>&nbsp; Hong-Han Shuai<sup>1</sup>&nbsp; Wen-Huang Cheng<sup>2</sup>
-*Indicates Equal Contribution
+<br><small><i>*Indicates Equal Contribution</i></small>
+
 <sup>1</sup> National Yang Ming Chiao Tung University&nbsp; <sup>2</sup> National Taiwan University
 
 [![arXiv](https://img.shields.io/badge/arXiv-2407.17911-COLOR.svg)](https://arxiv.org/abs/2407.17911)&nbsp; [![Project](https://img.shields.io/badge/Project-ReCorD-blue)](https://alberthkyhky.github.io/ReCorD/)
 
 </div>
+
 
 
 <img src="docs/MM_2024-Teaser.png" width="1000">
