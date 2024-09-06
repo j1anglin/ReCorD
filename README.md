@@ -12,7 +12,7 @@ Jian-Yu Jiang-Lin<sup>1,2*</sup>&nbsp; Kang-Yang Huang<sup>2*</sup>&nbsp; Ling L
 </div>
 
 
-<img src="docs/MM_2024-Teaser.jpg" width="1000">
+<img src="docs/MM_2024-Teaser.pdf" width="1000">
 
 **Overview**: ReCorD revolutionizes image generation by integrating LDM with VLMs. This training-free approach enhances the creation of multimedia content, particularly in accurately depicting HOIs.
 
